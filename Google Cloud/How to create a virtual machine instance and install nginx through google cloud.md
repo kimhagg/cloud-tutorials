@@ -39,7 +39,10 @@
 8. Press ``1``, then ``Enter``, then ``1``, then ``Enter`` again. 
 
 9. When asked for what project to use, find project name and then enter the numeric option for that project name.
+![Compute Engine](/Assets/Project%20name.jpg)
+
 --instruction for how to find project name here with picture
+
 
 10. Press enter to select default zone, a list of zones will come up. Type ```europe-north1-a``` and press enter to set it as default zone. If you want a different zone you can look through the list, if the zone you want isn't in the first 50, type ```list``` to show all zones.
 
