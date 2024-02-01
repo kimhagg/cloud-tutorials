@@ -9,7 +9,9 @@
 3. Give your project a name and select the organization (if applicable) that should handle the project. Then click "CREATE"
 
 ## Project setup
-1. Click the hambuger menu in the top-left to the left of the Google cloud logo
+1. Click the hambuger menu ![Hamburger Icon](https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg)
+ in the top-left to the left of the Google cloud logo
+ 
 --enable compute engine API
 
 --köra gcloud init från webbkonsolen
