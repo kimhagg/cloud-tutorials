@@ -45,7 +45,7 @@
 
 ## Create the virtual machine
 1. If the console is not open. Click the console icon in the top-right. It's a square with the text >_ inside it.
-![Compute Engine](/Assets/Console_Icon.jpg)
+![Compute Engine](/Assets/Console%20Icon.jpg)
 
 2. Copy below code into the terminal
 ```bash
