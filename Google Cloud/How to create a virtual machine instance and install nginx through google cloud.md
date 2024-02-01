@@ -7,7 +7,7 @@
 - Web browser
 
 ## Creating a project
-1. Go to [console.cloud.google.com](https://console.cloud.google.com/) and click the button in the top-left on the right of the Google cloud logo .
+1. Go to [console.cloud.google.com](https://console.cloud.google.com/) and click the button in the top-left on the right of the Google cloud logo.
 2. In the smaller window that pops up click the "NEW PROJECT" text that appears in the top-right.
 3. Give your project a name and select the organization (if applicable) that should handle the project. Then click "CREATE"
 
@@ -48,7 +48,7 @@
 1. If the console is not open. Click the console icon in the top-right. It's a square with the text >_ inside it.
 ![Compute Engine](/Assets/Console%20Icon.jpg)
 
-2. Copy below code into the terminal
+2. Copy below code using CTRL+C then paste into the terminal using CTRL+SHIFT+V
 ```bash
 echo "Please enter instance name [-a-z0-9]:"
 read instance_name
@@ -58,10 +58,10 @@ gcloud compute instances create $instance_name \
     --tags=http-server \
     --metadata=startup-script='#!/bin/bash
 apt-get update -y
-apt-get install nginx -y'\
+apt-get install nginx -y'
 ```
 3. Type a name in lowercase letters, numbers and use - for spaces. Then press Enter.
 
-4. Wait for the command to complete. The server should start about a minute or two after the command finishes.
+4. Wait about 5 minutes for the command to complete. After the command completes the server should start about a minute or two later.
 
 Congratulations it's finished!
