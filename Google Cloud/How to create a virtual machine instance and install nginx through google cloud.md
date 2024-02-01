@@ -15,23 +15,31 @@
 1. Click the hambuger menu ![Hamburger Icon](https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg)
  in the top-left to the left of the Google cloud logo
 
---click compute engine
- 
---click enable compute engine API
 
---wait until button said manage, then re-do previous two steps
+2. Click compute engine
+![Compute Engine](/Assets/Compute_Engine.jpg)
 
---click the console icon in the top-right. It's a square with the text >_ inside it.
 
---type gcloud init
+3. Click enable compute engine API
+![Compute Engine](/Assets/Enable%20Compute%20Engine.jpg)
+4. Wait until button said manage, then re-do previous two steps
 
---press authorize
 
---press 1, then enter, then 1, then enter
+5. Click the console icon in the top-right. It's a square with the text >_ inside it.
+![Compute Engine](/Assets/Console%20Icon.jpg)
 
---when asked for what project to use, find project name and then enter the numeric option for that project name.
+6. The console will open at the bottom of the page.
+![Compute Engine](/Assets/Console%20%20opens%20at%20the%20bottom.png)
 
---instruction for how to find project name
+
+7. Type gcloud init. A small windows will appears asking for your permision for the console shell have access to google cloud CLI. Press authorize
+![Compute Engine](/Assets/Authorize_Cloud_Shell.jpg)
+
+
+8. Press ``1``, then ``Enter``, then ``1``, then ``Enter`` again. 
+When asked for what project to use, find project name and then enter the numeric option for that project name.
+
+## Instruction for how to find project name
 
 --press enter to select default zone, a list of zones will come up, if the zone you want isn't there, type ```list``` to show all zones.
 
