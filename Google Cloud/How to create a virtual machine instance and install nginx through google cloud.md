@@ -37,18 +37,17 @@
 
 
 8. Press ``1``, then ``Enter``, then ``1``, then ``Enter`` again. 
-When asked for what project to use, find project name and then enter the numeric option for that project name.
 
-## Instruction for how to find project name
+9. When asked for what project to use, find project name and then enter the numeric option for that project name.
+--instruction for how to find project name here with picture
 
---press enter to select default zone, a list of zones will come up, if the zone you want isn't there, type ```list``` to show all zones.
-
---add ```europe-north1-a``` as default zone either by typing the name or typing the list entry number
+10. Press enter to select default zone, a list of zones will come up. Type ```europe-north1-a``` and press enter to set it as default zone. If you want a different zone you can look through the list, if the zone you want isn't in the first 50, type ```list``` to show all zones.
 
 ## Create the virtual machine
---if the console is not open. click the console icon in the top-right. It's a square with the text >_ inside it.
+1. If the console is not open. Click the console icon in the top-right. It's a square with the text >_ inside it.
+![Compute Engine](/Assets/Console_Icon.jpg)
 
-1. Copy below code into the terminal
+2. Copy below code into the terminal
 ```bash
 echo "Please enter instance name [-a-z0-9]:"
 read instance_name
@@ -60,8 +59,8 @@ gcloud compute instances create $instance_name \
 apt-get update -y
 apt-get install nginx -y'\
 ```
-2. Type a name in lowercase letters, numbers and use - for spaces. Then press Enter.
+3. Type a name in lowercase letters, numbers and use - for spaces. Then press Enter.
 
-3. Wait for the command to complete.
+4. Wait for the command to complete. The server should start about a minute or two after the command finishes.
 
 Congratulations it's finished!
