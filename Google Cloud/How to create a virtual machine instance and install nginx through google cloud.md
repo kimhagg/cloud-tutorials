@@ -56,6 +56,18 @@
 
 10. Press enter to select default zone, a list of zones will come up. Type ```europe-north1-a``` and press enter to set it as default zone. If you want a different zone you can look through the list, if the zone you want isn't in the first 50, type ```list``` to show all zones.
 
+11. Copy below code using the copy button or CTRL+C, then paste into the terminal using CTRL+SHIFT+V
+```bash
+gcloud compute firewall-rules create default-allow-http \
+    --direction=INGRESS \
+    --priority=1000 \
+    --network=default \
+    --action=ALLOW \
+    --rules=tcp:80 \
+    --source-ranges=0.0.0.0/0 \
+    --target-tags=http-server
+```
+
 ## Create the virtual machine
 1. If the console is not open. Click the console icon in the top-right. It's a square with the text >_ inside it.
 ![Compute Engine](/Google%20Cloud/Assets/Console_Icon.jpg)
