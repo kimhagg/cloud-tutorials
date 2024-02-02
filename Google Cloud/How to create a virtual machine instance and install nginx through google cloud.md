@@ -7,9 +7,15 @@
 - Web browser
 
 ## Creating a project
-1. Go to [console.cloud.google.com](https://console.cloud.google.com/) and click the button in the top-left on the right of the Google cloud logo .
+1. Go to [console.cloud.google.com](https://console.cloud.google.com/) and click the button in the top-left on the right side of the Google cloud logo .
+
+![Compute Engine](/Assets/Create%20a%20new%20project.jpg)
+
 2. In the smaller window that pops up click the "NEW PROJECT" text that appears in the top-right.
+![Compute Engine](/Assets/Click%20on%20create%20a%20new%20project.jpg)
+
 3. Give your project a name and select the organization (if applicable) that should handle the project. Then click "CREATE"
+![Compute Engine](/Assets/Name%20your%20project.jpg)
 
 ## Project setup
 1. Click the hambuger menu ![Hamburger Icon](https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg)
