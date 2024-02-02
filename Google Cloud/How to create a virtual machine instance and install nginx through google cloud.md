@@ -30,6 +30,7 @@
 ![Compute Engine](/Assets/Enable%20Compute%20Engine.jpg)
 
 5. Wait until button says manage, then re-do previous two steps. If it takes you past the enable page, instead continue to step 5.
+![Compute Engine](/Assets/Manage%20API.jpg)
 
 6. Click the console icon in the top-right. It's a square with the text >_ inside it.
 ![Compute Engine](/Assets/Console_Icon.jpg)
