@@ -22,27 +22,27 @@
 
 3. Click enable compute engine API
 ![Compute Engine](/Assets/Enable%20Compute%20Engine.jpg)
-4. Wait until button said manage, then re-do previous two steps
 
+5. Wait until button sais manage, then re-do previous two steps. If it takes you past the enable page, instead continue to step 6.
 
-5. Click the console icon in the top-right. It's a square with the text >_ inside it.
+6. Click the console icon in the top-right. It's a square with the text >_ inside it.
 ![Compute Engine](/Assets/Console%20Icon.jpg)
 
-6. The console will open at the bottom of the page.
+7. The console will open at the bottom of the page.
 ![Compute Engine](/Assets/Console%20%20opens%20at%20the%20bottom.png)
 
 
-7. Type gcloud init. A small windows will appears asking for your permision for the console shell have access to google cloud CLI. Press authorize
+8. Type gcloud init. A small windows will appears asking for your permision for the console shell have access to google cloud CLI. Press authorize
 ![Compute Engine](/Assets/Authorize_Cloud_Shell.jpg)
 
 
-8. Press ``1``, then ``Enter``, then ``1``, then ``Enter`` again. 
+9. Press ``1``, then ``Enter``, then ``1``, then ``Enter`` again. 
 
-9. When asked for what project to use, find project name and then enter the numeric option for that project name.
+10. When asked for what project to use, find project name and then enter the numeric option for that project name.
 ![Compute Engine](/Assets/Project%20name.jpg)
 
 
-10. Press enter to select default zone, a list of zones will come up. Type ```europe-north1-a``` and press enter to set it as default zone. If you want a different zone you can look through the list, if the zone you want isn't in the first 50, type ```list``` to show all zones.
+11. Press enter to select default zone, a list of zones will come up. Type ```europe-north1-a``` and press enter to set it as default zone. If you want a different zone you can look through the list, if the zone you want isn't in the first 50, type ```list``` to show all zones.
 
 ## Create the virtual machine
 1. If the console is not open. Click the console icon in the top-right. It's a square with the text >_ inside it.
