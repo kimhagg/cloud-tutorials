@@ -70,4 +70,4 @@ apt-get install nginx -y'
 
 4. Wait about a minute for the command to complete. After the command completes the server should start about a minute or two later.
 
-Congratulations it's finished!
+Congratulations it's finished! You just need to click on the external ip to show the website.
