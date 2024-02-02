@@ -32,7 +32,7 @@
 5. Wait until button says manage, then re-do previous two steps. If it takes you past the enable page, instead continue to step 5.
 
 6. Click the console icon in the top-right. It's a square with the text >_ inside it.
-![Compute Engine](/Assets/Console%20Icon.jpg)
+![Compute Engine](/Assets/Console_Icon.jpg)
 
 7. The console will open at the bottom of the page.
 ![Compute Engine](/Assets/Console%20%20opens%20at%20the%20bottom.png)
