@@ -12,7 +12,7 @@
 3. [Create the virtual machine](#create-the-virtual-machine)
 
 ## Creating a project
-1. Go to [console.cloud.google.com](https://console.cloud.google.com/) and click the button in the top-left on the right side of the Google cloud logo .
+1. Go to [console.cloud.google.com](https://console.cloud.google.com/) and click the button in the top-left on the right side of the Google cloud logo.
 
 ![Compute Engine](/Google%20Cloud/Assets/Create%20a%20new%20project_1.jpg)
 
@@ -37,7 +37,7 @@
 4. Wait until button says manage, then re-do step 1 and 2. If it takes you past the enable page, instead continue to step 5.
 ![Compute Engine](/Google%20Cloud/Assets/Manage%20API.jpg)
 
-5. Click the console icon in the top-right. It's a square with the text >_ inside it.
+5. Click the console icon in the top-right.
 ![Compute Engine](/Google%20Cloud/Assets/Console_Icon.jpg)
 
 6. The console will open at the bottom of the page.
@@ -48,15 +48,15 @@
 ![Compute Engine](/Google%20Cloud/Assets/Authorize_Cloud_Shell.jpg)
 
 
-8. Press ``1``, then ``Enter``, then ``1``, then ``Enter`` again. 
+8. Press ``1``, then ``Enter``, then ``1``, then ``Enter`` again. This selects to re-initialize the project and it selects your primary email to use with the project.
 
-9. When asked for what project to use, find project name and then enter the numeric option for that project name.
+9. When asked for what project to use, find project name (in yellow) and then enter the numeric option for that project name.
 ![Compute Engine](/Google%20Cloud/Assets/Project%20name.jpg)
 
 
 10. Press enter to select default zone, a list of zones will come up. Type ```europe-north1-a``` and press enter to set it as default zone. If you want a different zone you can look through the list, if the zone you want isn't in the first 50, type ```list``` to show all zones.
 
-11. Copy below code using the copy button or CTRL+C, then paste into the terminal using CTRL+SHIFT+V
+11. Copy below code using the copy button or CTRL+C, then paste into the terminal using CTRL+SHIFT+V. This will add a rule to the firewall that says "if an instance has the tag http-server then open port 80 for it"
 ```bash
 gcloud compute firewall-rules create default-allow-http \
     --direction=INGRESS \
@@ -69,7 +69,7 @@ gcloud compute firewall-rules create default-allow-http \
 ```
 
 ## Create the virtual machine
-1. If the console is not open. Click the console icon in the top-right. It's a square with the text >_ inside it.
+1. If the console is not open. Click the console icon in the top-right.
 ![Compute Engine](/Google%20Cloud/Assets/Console_Icon.jpg)
 
 2. Copy below code using CTRL+C then paste into the terminal using CTRL+SHIFT+V
