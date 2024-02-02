@@ -62,6 +62,6 @@ apt-get install nginx -y'
 ```
 3. Type a name in lowercase letters, numbers and use - for spaces. Then press Enter.
 
-4. Wait about 5 minutes for the command to complete. After the command completes the server should start about a minute or two later.
+4. Wait about a minute for the command to complete. After the command completes the server should start about a minute or two later.
 
 Congratulations it's finished!
