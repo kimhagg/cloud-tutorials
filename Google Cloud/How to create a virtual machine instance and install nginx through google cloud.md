@@ -19,19 +19,19 @@
 2. In the smaller window that pops up click the "NEW PROJECT" text that appears in the top-right.
 ![Compute Engine](/Google%20Cloud/Assets/Create%20a%20new%20project.jpg)
 
-3. Give your project a name and select the organization (if applicable) that should handle the project. Then click "CREATE"
+3. Give your project a name and select the organization (if applicable) that should handle the project. Then click "CREATE".
 ![Compute Engine](/Google%20Cloud/Assets/Name%20your%20project.jpg)
 
 ## Project setup
 1. Click the hambuger menu ![Hamburger Icon](https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg)
- in the top-left to the left of the Google cloud logo
+ in the top-left to the left of the Google cloud logo.
 
 
-2. Click compute engine
+2. Click compute engine.
 ![Compute Engine](/Google%20Cloud/Assets/Compute_Engine.jpg)
 
 
-3. Click enable compute engine API
+3. Click enable compute engine API.
 ![Compute Engine](/Google%20Cloud/Assets/Enable%20Compute%20Engine.jpg)
 
 4. Wait until button says manage, then re-do step 1 and 2. If it takes you past the enable page, instead continue to step 5.
@@ -44,7 +44,7 @@
 ![Compute Engine](/Google%20Cloud/Assets/Console%20%20opens%20at%20the%20bottom.png)
 
 
-7. Type gcloud init. A small windows will appears asking for your permision for the console shell have access to google cloud CLI. Press authorize
+7. Type gcloud init. A small windows will appears asking for your permision for the console shell have access to google cloud CLI. Press authorize.
 ![Compute Engine](/Google%20Cloud/Assets/Authorize_Cloud_Shell.jpg)
 
 
@@ -56,7 +56,7 @@
 
 10. Press enter to select default zone, a list of zones will come up. Type ```europe-north1-a``` and press enter to set it as default zone. If you want a different zone you can look through the list, if the zone you want isn't in the first 50, type ```list``` to show all zones.
 
-11. Copy below code using the copy button or CTRL+C, then paste into the terminal using CTRL+SHIFT+V. This will add a rule to the firewall that says "if an instance has the tag http-server then open port 80 for it"
+11. Copy below code using the copy button or CTRL+C, then paste into the terminal using CTRL+SHIFT+V. This will add a rule to the firewall that says "if an instance has the tag http-server then open port 80 for it".
 ```bash
 gcloud compute firewall-rules create default-allow-http \
     --direction=INGRESS \
@@ -72,7 +72,7 @@ gcloud compute firewall-rules create default-allow-http \
 1. If the console is not open. Click the console icon in the top-right.
 ![Compute Engine](/Google%20Cloud/Assets/Console_Icon.jpg)
 
-2. Copy below code using CTRL+C then paste into the terminal using CTRL+SHIFT+V
+2. Copy below code using CTRL+C then paste into the terminal using CTRL+SHIFT+V.
 ```bash
 echo "Please enter instance name [-a-z0-9]:"
 read instance_name
