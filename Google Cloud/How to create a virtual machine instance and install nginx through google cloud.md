@@ -23,7 +23,7 @@
 ![Compute Engine](/Google%20Cloud/Assets/Name%20your%20project.jpg)
 
 ## Project setup
-1. Click the hambuger menu ![Hamburger Icon](https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg)
+1. Click the hamburger menu ![Hamburger Icon](https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg)
  in the top-left to the left of the Google cloud logo.
 
 
