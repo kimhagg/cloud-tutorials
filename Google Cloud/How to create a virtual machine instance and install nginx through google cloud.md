@@ -56,7 +56,7 @@
 
 10. Press enter to select default zone, a list of zones will come up. Type ```europe-north1-a``` and press enter to set it as default zone. If you want a different zone you can look through the list, if the zone you want isn't in the first 50, type ```list``` to show all zones.
 
-11. Copy below code using the copy button or CTRL+C, then paste into the terminal using CTRL+SHIFT+V. This will add a rule to the firewall that says "if an instance has the tag http-server then open port 80 for it".
+11. Copy below code using the copy button or CTRL+C, then paste into the terminal using CTRL+SHIFT+V and press enter to run it. This will add a rule to the firewall that says "if an instance has the tag http-server then open port 80 for it".
 ```bash
 gcloud compute firewall-rules create default-allow-http \
     --direction=INGRESS \
@@ -72,7 +72,7 @@ gcloud compute firewall-rules create default-allow-http \
 1. If the console is not open. Click the console icon in the top-right.
 ![Compute Engine](/Google%20Cloud/Assets/Console_Icon.jpg)
 
-2. Copy below code using CTRL+C then paste into the terminal using CTRL+SHIFT+V.
+2. Copy below code using CTRL+C then paste into the terminal using CTRL+SHIFT+V and press enter to run it.
 ```bash
 echo "Please enter instance name [-a-z0-9]:"
 read instance_name
