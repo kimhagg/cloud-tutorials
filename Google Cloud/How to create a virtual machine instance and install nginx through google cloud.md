@@ -10,6 +10,7 @@
 1. [Creating a project](#creating-a-project)
 2. [Project Setup](#project-setup)
 3. [Create the virtual machine](#create-the-virtual-machine)
+4. [Edit your website file](#configuring-the-website-to-show-your-name)
 
 ## Creating a project
 1. Go to [console.cloud.google.com](https://console.cloud.google.com/) and click the button in the top-left on the right side of the Google cloud logo.
@@ -103,7 +104,7 @@ sudo nano /var/www/html/index.nginx-debian.html
 ```
 Which opens it in a terminal text editor called nano with super user privileges.
 
-4. In the html code that will show up. Find the <h1>Welcome to nginx!</h1> line. Changing nginx here to your name will show your name on the final website. Exit by pressing Ctrl+X and pressing Y to save. Finally closing the window.
+4. In the html code that will show up. Find the \<h1>Welcome to nginx!\</h1> line. Changing nginx here to your name will show your name on the final website. Exit by pressing Ctrl+X and pressing Y to save. Finally closing the window.
 ![HTML H1 Tag](/Google%20Cloud/Assets/H1_tag.jpg)
 
 5. Click the external ip again so see the changes in your website.
